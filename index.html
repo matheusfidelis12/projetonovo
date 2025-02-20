@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>tabela</h1>
+    <p>
+        <table border="4">
+            <tr>
+                <th>Nome</th>
+                <th colspan="2">telefone</th>
+            </tr>
+            <tr>
+                <td>matheus</td>
+                <td>11991312081</td>
+                <td>19884739203</td>
+            </tr>
+
+        </table>
+    </p>
+    <p>formulario</p>
+    <form>
+        Nome<input type="text" name="Nome" placeholder="digite seu nome" required autofocus id="txtNone">
+        Sobrenome<input type="text" name="Sobrenome" placeholder="digite o sobrenome" id="txtsobrenome">
+    </form>
+    <p><h2>pesquisa de filmes</p></h2>
+    <form>
+        selecione um ou mais generos.
+        <input type="checkbox" name="generofilme" value="1"> Ação
+        <input type="checkbox" name="generofilme" value="2">Aventura
+        <input type="checkbox" name="generofilme" value="3">comedia
+        <input type="checkbox" name="generofilme" value="4">fantasia
+        <input type="checkbox" name="generofilme" value="5">terror
+    </form>
+    <form>
+        selecione sua regiao.
+        <input type="radio" name="regiao" value="norte"> Norte
+        <input type="radio" name="regiao" value="sul">Sul
+        <input type="radio" name="regiao" value="sudeste">Sudeste
+        <input type="radio" name="regiao" value="nordeste">Nordeste
+        <input type="radio" name="regiao" value="centroeste">Centro este
+    </form>
+    <p><h2>senha</h2></p>
+    <form>
+        senha : <input type="password" placeholder="digite sua senha" name="senha"><br/><br/>
+        confirmação : <input type="password" placeholder="confirme a senha" name="confirmação">
+    </form>
+    <form>
+        <h2> input date</h2>
+        <p>nascimento</p>
+        <input type="date"           name="nascimento"
+               min="1950-01-01"      max="2026-12-31">  
+    </form>
+    <h3>email</h3>
+    <form>
+        <input type="email" placeholder="digite seu email" required multiple>
+    </form>
+    <form action="https://www.google.com">
+        <b>CPF:</b>
+        <input type="number" required/>
+        <input type="submit" value="enviar"/>
+    </form> 
+    <form>
+        <h3>selecione o estado</h3>
+        <select name="estado">
+            <option value="DF">Brasilia</option>
+            <option value="RJ">Rio de janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="BH">Bahia</option>
+            <option value="TP">Teu Pai</option>
+        </select>
+    </form>   
+    
+</body>
+   
+
+</html>
